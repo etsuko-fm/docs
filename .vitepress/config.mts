@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "markdown",
-  
+  base: '/docs/',
   title: "eterna / documentation",
   description: "guides for products from etsuko.fm",
   themeConfig: {
@@ -43,7 +43,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/etsuko-fmi' }
     ]
   }
 })
