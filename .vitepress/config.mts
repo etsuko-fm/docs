@@ -24,10 +24,6 @@ export default defineConfig({
   description: "guides for products from etsuko.fm",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
 
     sidebar: [
       {
