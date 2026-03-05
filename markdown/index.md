@@ -1,4 +1,4 @@
   ---
   layout:false
   ---
-  <script>window.location.href = './eterna'</script>
+  <script> if (typeof window !== 'undefined') window.location.href = './eterna'</script>
