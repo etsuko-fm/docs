@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "markdown",
   base: '/',
+  markdown: { math: true },
   rewrites: {
     'reference/pages/1_sample.md': 'reference/pages/sample.md',
     'reference/pages/2_slice.md': 'reference/pages/slice.md',

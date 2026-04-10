@@ -11,7 +11,7 @@ A multichannel file is not a special format — it’s simply an audio file that
 :::
 
 ### Length
-The maximum supported sample length is $2²⁴$ samples.
+The maximum supported sample length is $2^{24}$ samples.
 In more familiar time units, this is approximately 5m48s given a sample rate of 48 kHz.
 Files with other sample rates will reach this limit at different durations.
 
