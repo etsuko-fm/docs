@@ -60,6 +60,15 @@ export default defineConfig({
       }
     ],
 
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'A51PYLD6G0',
+        apiKey: '9e8257a27e916d61cc35aadcd2c30d23',
+        indexName: 'eterna'
+      }
+    },
+
     socialLinks: [
       {
         icon: {
