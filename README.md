@@ -1,13 +1,15 @@
-# eterna / documentation
+# etsuko.fm / docs
 
-Documentation site for [Eterna](https://github.com/etsuko-fm/eterna), a 6-voice sampler and sequencer for [monome norns](https://monome.org/docs/norns/).
+Documentation for instruments by [etsuko.fm](https://etsuko.fm), built with [VitePress](https://vitepress.dev) and deployed to [docs.etsuko.fm](https://docs.etsuko.fm).
 
-Built with [VitePress](https://vitepress.dev) and deployed to [docs.etsuko.fm/eterna](https://docs.etsuko.fm/eterna).
+## Products
+
+- [eterna](https://docs.etsuko.fm/eterna/) — 6-voice sampler and sequencer for monome norns
 
 ## Development
 
 ```bash
-npm run docs:dev      # Start local dev server
-npm run docs:build    # Build for production
-npm run docs:preview  # Preview production build locally
+npm run home:dev      # Homepage dev server
+npm run eterna:dev    # Eterna docs dev server
+npm run build         # Build all
 ```

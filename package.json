@@ -1,11 +1,17 @@
 {
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "concurrently \"npm run home:dev\" \"npm run eterna:dev\"",
+    "build": "npm run docs:build --workspaces --if-present",
+    "home:dev": "npm run docs:dev --workspace=home -- --port 5173",
+    "home:build": "npm run docs:build --workspace=home",
+    "eterna:dev": "npm run docs:dev --workspace=eterna -- --port 5174",
+    "eterna:build": "npm run docs:build --workspace=eterna"
   },
+  "workspaces": [
+    "home",
+    "eterna"
+  ],
   "devDependencies": {
-    "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.6.4"
+    "concurrently": "^9.2.1"
   }
 }
