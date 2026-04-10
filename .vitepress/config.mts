@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "markdown",
-  base: '/docs/',
+  base: '/',
   rewrites: {
     'reference/pages/1_sample.md': 'reference/pages/sample.md',
     'reference/pages/2_slice.md': 'reference/pages/slice.md',
