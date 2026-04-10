@@ -25,4 +25,4 @@ eterna/     → docs.etsuko.fm/eterna/  (eterna docs)
 public/     → shared static assets, copied into each build at deploy time
 ```
 
-Since products are separate VitePress instances, Vue Router in `home/` cannot client-side navigate to `/eterna/` — use the `<CrossLink>` component for cross-product links in `home/` markdown, which forces a full page load instead.
+Since products are separate VitePress instances, Vue Router in `home/` cannot client-side navigate to `/eterna/`. The router is patched in `home/.vitepress/theme/index.ts` to force a full page load for cross-product links — standard markdown links work fine.
