@@ -1,26 +1,32 @@
-  name: Deploy
-  on:
-    push:
-      branches: [main]
-  jobs:
-    deploy:
-      runs-on: ubuntu-latest
-      permissions:
-        pages: write
-        id-token: write
-      environment:
-        name: github-pages
-        url: ${{ steps.deployment.outputs.page_url }}
-      steps:
-        - uses: actions/checkout@v4
-        - uses: actions/setup-node@v4
-          with:
-            node-version: 20
-        - run: |
-            npm install
-            npm run docs:build
-        - uses: actions/upload-pages-artifact@v3
-          with:
-            path: .vitepress/dist
-        - uses: actions/deploy-pages@v4
-          id: deployment
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          npm install
+          npm run home:build
+          npm run eterna:build
+          mkdir -p dist dist/eterna
+          cp -r home/.vitepress/dist/. dist/
+          cp -r eterna/.vitepress/dist/. dist/eterna/
+          cp -r public/. dist/
+          cp -r public/. dist/eterna/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
