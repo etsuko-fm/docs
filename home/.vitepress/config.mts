@@ -5,6 +5,13 @@ export default defineConfig({
   base: '/',
   // cross-site links to other product VitePress instances appear dead to this build
   ignoreDeadLinks: [/^\/eterna/],
+  vite: {
+    server: {
+      proxy: {
+        '/eterna': 'http://localhost:5174'
+      }
+    }
+  },
   title: 'docs.etsuko.fm',
   description: 'Documentation for products by etsuko.fm',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/etsuko-black-round.png' }]],
