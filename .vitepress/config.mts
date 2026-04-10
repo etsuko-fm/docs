@@ -1,8 +1,13 @@
 import { defineConfig } from 'vitepress'
+import { readFileSync } from 'fs'
+import { resolve } from 'path'
+
+const llllllllIcon = readFileSync(resolve(__dirname, 'icons/llllllll.svg'), 'utf-8')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "markdown",
+  head: [['link', { rel: 'icon', type: 'image/png', href: '/etsuko-black-round.png' }]],
   base: '/',
   markdown: { math: true },
   rewrites: {
@@ -56,7 +61,15 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/etsuko-fm/eterna' }
+      {
+        icon: {
+          svg: llllllllIcon
+        },
+        link: 'https://llllllll.co/t/eterna/73584',
+        ariaLabel: 'llllllll'
+      },
+      { icon: 'github', link: 'https://github.com/etsuko-fm/eterna' },
+      { icon: 'instagram', link: 'https://instagram.com/etsuko.fm' },
     ]
   }
 })
