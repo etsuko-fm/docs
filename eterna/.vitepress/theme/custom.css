@@ -1,0 +1,23 @@
+.DocSearch-Button {
+  width: 270px;
+}
+
+.DocSearch-Button-Keys {
+  margin-left: auto;
+}
+
+.VPNavBarSearch {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: var(--vp-nav-height);
+  display: flex;
+  align-items: center;
+  z-index: 30;
+  pointer-events: none;
+}
+
+.VPNavBarSearch * {
+  pointer-events: auto;
+}
