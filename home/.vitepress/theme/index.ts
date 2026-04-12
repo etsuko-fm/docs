@@ -17,5 +17,13 @@ export default {
       }
       return originalPushState(state, title, url)
     }
+    // Back/forward navigation fires popstate instead of pushState, so intercept that too.
+    // Capture phase runs before Vue Router's bubble-phase listener, preventing the flash.
+    window.addEventListener('popstate', (e) => {
+      if (PRODUCT_PATHS.test(window.location.pathname)) {
+        e.stopPropagation()
+        window.location.reload()
+      }
+    }, true)
   }
 }
