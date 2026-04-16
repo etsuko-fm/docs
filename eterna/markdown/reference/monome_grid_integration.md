@@ -1,0 +1,36 @@
+# Monome Grid integration
+
+Parts of Eterna can be operated using monome grid. The following functionality is supported:
+- modifying the sequence
+- looping the sequence between steps
+- transport control (start/stop)
+- selecting pages
+
+### Controls
+![eterna grid schematic](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/eterna-grid-docs-v2.png)
+
+
+### Demo
+This video demonstrates the controls.
+<video controls preload="metadata" poster="https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/eterna-grid-frame-0.png">                 
+    <source src="https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/EternaGrid.mp4" type="video/mp4">
+</video>
+
+### Modifying existing sequences
+
+Without grid, sequences are controlled using E2 (`seed`) and E3 (`density`) on the [sequencer page](./pages/sequencer).
+Once you plugin grid, the current sequence is displayed on grid. 
+
+If you use grid to modify an existing sequence, the perlin noise sequence parameters are disabled, indicated by a `*` on the sequencer page's footer.
+
+todo: add screenshot
+
+If you twist E2 or E3 again, their values are re-applied and the grid-drawn sequence is taken over by the perlin noise sequence.
+
+
+### Velocity
+Velocity is not controllable via grid, but via the [sequencer page](./pages/sequencer) instead. 
+
+
+### Compatibility
+Eterna has been tested with the latest version of monome grid, 16x8 with varibrightness. If you experience issues with this or any other version of grid, please post a reply to the [lines topic](https://llllllll.co/t/eterna/73584).

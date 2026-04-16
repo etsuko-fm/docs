@@ -33,7 +33,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Reference',
         items: [
           { text: 'Compatibility', link: '/reference/Compatibility' },
           { text: 'Audio File Requirements', link: '/reference/audio_file_requirements' },
@@ -55,7 +54,8 @@ export default defineConfig({
               { text: 'Echo', link: '/reference/pages/echo' },
               { text: 'Master', link: '/reference/pages/master' },
             ]
-          }
+          },
+          { text: 'Monome Grid Integration', link: '/reference/monome_grid_integration' },
         ]
       }
     ],
