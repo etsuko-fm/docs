@@ -1,7 +1,7 @@
-# Slice
-![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/slices.png)
+# Slices
+![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/slices.png)
 
-Cut the sample into 1-32 slices with E3. There are 6 voices; each of them is assigned 1 slice for playback. If the number of slices is smaller than 6, one or more slices are used with multiple voices.
+Cut the sample into 1-32 slices with E3 (`SLCS`). There are 6 voices; each of them is assigned 1 slice for playback. If the number of slices is smaller than 6, slices are recycled over voices.
 
 When a mono sample is selected, the selected start slice (E2) is assigned to voice 1, while each next slice is assigned to the next voice. See the screenshot below: slice 2 to 7 are assigned to voice 1 to 6.
 
@@ -20,7 +20,7 @@ When a stereo sample is selected, each next slice is taken from the alternating 
 
 The graphic doesn't explicitly indicate which slice is assigned to which channel, but when the sequence triggers a voice, the slice flashes according to its envelope, which helps to identify which slice is being played back.
 
-When a multichannel sample is selected (up to 6 channels), each next slice is taken from the next channel, wrapping around back to channel 1 when each channel has provided a slice. 
+When a multichannel audio file is loaded, each next slice is taken from the next channel, wrapping around back to channel 1 when each channel has provided a slice. 
 
 For an example with a 4-channel file:
 

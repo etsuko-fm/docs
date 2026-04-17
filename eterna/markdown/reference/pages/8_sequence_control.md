@@ -1,5 +1,5 @@
 # Sequence Control
-![screenshot of sequencer page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/sequence-ctrl.png)
+![screenshot of sequencer page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/seq-ctrl.png)
 
 Controls transport, BPM, and sequence length.
 

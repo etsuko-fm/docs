@@ -12,7 +12,7 @@ export default defineConfig({
   markdown: { math: true },
   rewrites: {
     'reference/pages/1_sample.md': 'reference/pages/sample.md',
-    'reference/pages/2_slice.md': 'reference/pages/slice.md',
+    'reference/pages/2_slices.md': 'reference/pages/slices.md',
     'reference/pages/3_envelopes.md': 'reference/pages/envelopes.md',
     'reference/pages/4_playback_rates.md': 'reference/pages/playback_rates.md',
     'reference/pages/5_panning.md': 'reference/pages/panning.md',
@@ -40,7 +40,7 @@ export default defineConfig({
             text: 'Pages',
             items: [
               { text: 'Sample', link: '/reference/pages/sample' },
-              { text: 'Slice', link: '/reference/pages/slice' },
+              { text: 'Slices', link: '/reference/pages/slices' },
               { text: 'Envelopes', link: '/reference/pages/envelopes' },
               { text: 'Playback Rates', link: '/reference/pages/playback_rates' },
               { text: 'Panning', link: '/reference/pages/panning' },

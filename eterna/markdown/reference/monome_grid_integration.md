@@ -1,10 +1,13 @@
 # Monome Grid integration
 
-Parts of Eterna can be operated using monome grid. The following functionality is supported:
-- modifying the sequence
-- looping the sequence between steps
-- transport control (start/stop)
-- selecting pages
+Eterna can be operated using [monome grid](https://monome.org/docs/grid/). 
+
+The following functionality is supported:
+- Browsing pages
+- Modifying the sequence
+- Looping the sequence between steps
+- Transport control (start/stop)
+
 
 ### Controls
 ![eterna grid schematic](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/eterna-grid-docs-v2.png)
@@ -30,6 +33,9 @@ If you twist E2 or E3 again, their values are re-applied and the grid-drawn sequ
 
 ### Velocity
 Velocity is not controllable via grid, but via the [sequencer page](./pages/sequencer) instead. 
+
+### Transport
+The last button on the bottom row can be used to start or stop transport. When transport is not running, it blinks in the current BPM.
 
 
 ### Compatibility

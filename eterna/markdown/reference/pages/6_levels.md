@@ -1,9 +1,11 @@
 # Levels
-![screenshot of levels page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/levels.png)
+![screenshot of levels page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/levels.png)
 
-Controls the levels of all voices via a Gaussian distribution (Bell curve). An LFO is available to automate movement; this affects the position parameter. 
+Control the levels of all voices via a [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). `POS` controls the center of the curve, while `AMP` controls the amplitude (_sigma_ of the curve).
 
-There's also a metering visualization: when playback is active, the current amplitude of each voice is shown realtime inside the bar graphs.
+ An LFO is available to automate movement; this affects the position parameter. 
+
+Graphics-wise, there is a metering visualization: when playback is active, the current amplitude of each voice is shown realtime inside the bar graphs.
 
 
 #### Controls
