@@ -19,9 +19,9 @@ The current level of the envelope of each track is indicated by the brightness o
 
 ### Control Modes
 There are 3 different control modes for the sequencer, set by K3 (`CTRL`):
-- Perlin
-- Velocity
-- Loop
+- [Perlin](#perlin)
+- [Velocity](#velocity)
+- [Loop](#loop)
 
 Each is explained below.
 
@@ -49,6 +49,9 @@ Each step is assigned a 'velocity' (_strength_ of a note/step). While in velocit
 Adjusting `center` or `spread` recalculates _all_ velocities. Also, each time a step has been triggered, a new velocity within this range is assigned to this particular step. 
 
 In practice, this leads to a continuously evolving pattern, unless `spread` is set to `0`.
+
+![video of evolving pattern]()
+
 
 | Control | Function  | Description |
 |:--------|:----------|:------------|
@@ -80,9 +83,9 @@ Formula
 </details>
 
 ##### What does velocity control?
-Velocity always modulates 50% of the amplitude of a triggered sample. That means that at minimum velocity, the step is triggered at half the maximum amplitude.
+Velocity always modulates the amplitude of a triggered sample. That means that at minimum velocity (0.01), the step is almost silent.
 
-If the envelope mode is set to `LPG`, it also modulates the filter cutoff of the low pass gate.
+If the envelope mode is set to `LPG`, velocity configures the maximum filter frequency of the low pass gate for that step — the higher the velocity, the brighter the step will sound.
 
 
 #### Loop
@@ -97,5 +100,3 @@ In order to change the `start` value, ensure to dial `len` to a value below 16 f
 |:--------|:----------|:------------|
 | E2 | Start (1-16) | Sets start step |
 | E3 | Length (1-16) | Sets loop length in steps |
-
-
