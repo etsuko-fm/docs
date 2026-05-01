@@ -1,7 +1,7 @@
 # Sample
 
 
-![screenshot of sample page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/sampling-initial.png)
+![screenshot of sample page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/sampling-initial.png)
 
 Load a sample from disk with K2. Drive (E2) is available to boost the amplitude of all channels in parallel.
 
@@ -21,4 +21,4 @@ Load a sample from disk with K2. Drive (E2) is available to boost the amplitude 
 
 Once the sample is loaded, the file path becomes the title of the window. The duration of the sample is shown between parentheses. Also, a waveform per channel is rendered. Playback starts automatically once the sample has been loaded. 
 
-![screenshot of sample page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/sampling-loaded.png)
+![screenshot of sample page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/sampling-loaded.png)

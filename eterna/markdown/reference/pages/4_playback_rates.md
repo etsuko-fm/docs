@@ -1,5 +1,5 @@
 # Playback Rates
-![screenshot of playback rates page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/playback-range.png)
+![screenshot of playback rates page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/playback-rates.png)
 
 Controls the playback rate and direction (`FWD`/`REV`/`BI`) of all voices. The rates are quantized to octaves. All playback rates are linked to each other as if they form a sine wave together. `CNTR` (E2) controls the offset of the wave from the center, while `SPRD` (E3) controls the height.
 

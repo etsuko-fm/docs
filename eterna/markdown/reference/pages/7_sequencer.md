@@ -1,5 +1,5 @@
 # Sequencer
-![screenshot of sequencer page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/seq-perlin.png)
+![screenshot of sequencer page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/seq-perlin.png)
 
 A [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)-based sequencer which offers 2 parameters to control the entire 6-track sequence: seed (E2) and density (E3). 
 
@@ -18,9 +18,17 @@ The current level of the envelope of each track is indicated by the brightness o
 | E3 | Depends on K3 |
 
 ### Control Modes
-There are 3 different control modes for the sequencer, set by K3 (`CTRL`).
+There are 3 different control modes for the sequencer, set by K3 (`CTRL`):
+- Perlin
+- Velocity
+- Loop
+
+Each is explained below.
 
 #### Perlin
+
+![screenshot of perlin noise mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/seq-perlin.png)
+
 Assigns E2 and E3 to control `seed` and `density`, parameters of the perlin noise sequence.
 
 | Control | Function  | Description |
@@ -32,10 +40,9 @@ When a monome grid is used to change the sequence, the `seed` and `density` valu
 
 When `E2` or `E3` is touched again, both parameters are read and the sequence is updated accordingly.
 
-![screenshot of perlin noise mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/sequencer-perlin-density.png)
-
-
 #### Velocity
+
+![screenshot of velocity mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/shot-velocity.png)
 
 Each step is assigned a 'velocity' (_strength_ of a note/step). While in velocity mode, E2 and E3 control the velocity of all steps at the same time, by defining a range using a `center` and `spread` value. The velocities are randomized within this range.
 
@@ -77,16 +84,18 @@ Velocity always modulates 50% of the amplitude of a triggered sample. That means
 
 If the envelope mode is set to `LPG`, it also modulates the filter cutoff of the low pass gate.
 
-![screenshot of velocity mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/seq-velo.png)
-
 
 #### Loop
 
+![screenshot of loop mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/seq-loop.png)
+
 By default, the sequencer loops from step 1 to 16. In Loop mode, this can be changed to loop between any 2 steps. 
+
+In order to change the `start` value, ensure to dial `len` to a value below 16 first.
 
 | Control | Function  | Description |
 |:--------|:----------|:------------|
 | E2 | Start (1-16) | Sets start step |
 | E3 | Length (1-16) | Sets loop length in steps |
 
-![screenshot of loop mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/sequencer-loop-range.png)
+

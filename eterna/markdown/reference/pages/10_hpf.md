@@ -1,6 +1,6 @@
 # Highpass Filter
 
-![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/lowpass.png)
+![screenshot of highpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/highpass-on.png)
 
 The pages for lowpass and highpass are identical except for their filter type.
 Each is based on [Supercollider's 12dB/octave SVF filter](https://doc.sccode.org/Classes/SVF.html).

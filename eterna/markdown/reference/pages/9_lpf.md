@@ -1,14 +1,26 @@
 # Lowpass Filter
-![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/lowpass.png)
+![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/lowpass-on.png)
 
 The pages for lowpass and highpass are identical except for their filter type.
 Each is based on [Supercollider's 12dB/octave SVF filter](https://doc.sccode.org/Classes/SVF.html).
 
 
-#### Controls
+#### Filter controls
 | Control | Function | Description |
 |:--------|:---------|:------------|
-| K2 | LFO on/off | Enables or disables the LFO |
-| K3 | Filter mix (DRY / 50% / WET) | Allows to pass the unfiltered signal |
+| K2 | CTRL | Switches control mode |
+| K3 | Filter mix (OFF / 50% / ON) | Provides control over filter routing. The 50% setting routes half of the signal through the filter. `OFF` passes the dry signal without any filter. `ON` routes the full signal through the filter.
 | E2 | Frequency (20Hz-20kHz) | Sets the filter cutoff frequency |
 | E3 | Resonance (0 - 0.98) | Controls the filter resonance |
+
+# LFO
+
+![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/lowpass-lfo.png)
+
+#### LFO controls
+| Control | Function | Description |
+|:--------|:---------|:------------|
+| K2 | CTRL | Switches control mode |
+| K3 | LFO waveform | Selects the LFO waveform shape |
+| E2 | LFO rate | Synced to clock; 1.00 = 4 beats |
+| E3 | LFO range (0-16, unipolar) | Implemented using `frequency * 2^range` |

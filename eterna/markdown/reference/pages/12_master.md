@@ -1,7 +1,7 @@
 
 # Master
 
-![screenshot of master page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/master.png)
+![screenshot of master page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/master-play-2.png)
 
 A simple mastering chain to control the final output of the mix. The processing chain includes a Bass Mono stage, which uses a [Linkwitz-Riley filter](https://en.wikipedia.org/wiki/Linkwitz%E2%80%93Riley_filter) to split the signal at a specified frequency and make it mono up to that frequency, as inspired by [Ableton Live's utility device](https://www.ableton.com/en/manual/live-audio-effect-reference/). After the Bass Mono stage, a compressor with three presets is available (soft/medium/hard) - or it may be turned off. 
 

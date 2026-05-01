@@ -1,5 +1,5 @@
 # Slices
-![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/slices.png)
+![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/slices.png)
 
 Cut the sample into 1-32 slices with E3 (`SLCS`). There are 6 voices; each of them is assigned 1 slice for playback. If the number of slices is smaller than 6, slices are recycled over voices.
 

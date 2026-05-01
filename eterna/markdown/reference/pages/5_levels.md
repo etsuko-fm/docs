@@ -1,5 +1,5 @@
 # Levels
-![screenshot of levels page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260417/levels.png)
+![screenshot of levels page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/levels-paused.png)
 
 Control the levels of all voices via a [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). `POS` controls the center of the curve, while `AMP` controls the amplitude (_sigma_ of the curve).
 
@@ -7,6 +7,7 @@ Control the levels of all voices via a [normal distribution](https://en.wikipedi
 
 Graphics-wise, there is a metering visualization: when playback is active, the current amplitude of each voice is shown realtime inside the bar graphs.
 
+![screenshot of levels page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/levels-playing.png)
 
 #### Controls
 | Control | Function | Description |
