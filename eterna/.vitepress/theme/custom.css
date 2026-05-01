@@ -1,3 +1,8 @@
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
 .DocSearch-Button {
   width: 270px;
 }
