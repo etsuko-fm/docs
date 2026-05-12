@@ -7,7 +7,10 @@ const llllllllIcon = readFileSync(resolve(__dirname, 'icons/llllllll.svg'), 'utf
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "markdown",
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/eterna/etsuko-black-round.png' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/eterna/etsuko-black-round.png' }],
+    ['meta', { name: 'algolia-site-verification', content: '8DE75908EF2994B4' }],
+  ],
   base: '/eterna/',
   markdown: { math: true },
   rewrites: {

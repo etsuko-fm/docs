@@ -14,7 +14,10 @@ export default defineConfig({
   },
   title: 'docs.etsuko.fm',
   description: 'Documentation for products by etsuko.fm',
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/etsuko-black-round.png' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/etsuko-black-round.png' }],
+    ['meta', { name: 'algolia-site-verification', content: '8DE75908EF2994B4' }],
+  ],
   themeConfig: {
     sidebar: [
       {
