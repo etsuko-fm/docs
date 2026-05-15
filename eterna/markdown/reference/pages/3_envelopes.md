@@ -1,7 +1,7 @@
 # Envelopes
 ![screenshot of envelopes page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/envelopes.png)
 
-Applies an A/D envelope of adjustable duration (E2) and variable curvature (K3) to the amplitude of the slice. A single button, shape (E3), controls how attack and decay relate to each other. 
+The Envelopes page controls the A/D (attack/decay) envelope for each triggered voice. A single Shape parameter controls the balance between attack and decay. Velocity modulation and a lowpass gate mode are available for more expressive control.
 
 Envelope times can be modulated by the sequencer's velocity using the `MOD` parameter (K2). When Lowpass Gate (`LPG`) is selected as `MOD` option, a lowpass filter is enabled for each voice, and the envelope controls not only amplitude, but also cutoff frequency. In this mode, the envelope time is also modulated by the sequencer's velocity.
 

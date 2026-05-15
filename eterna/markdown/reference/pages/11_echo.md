@@ -2,7 +2,7 @@
 
 ![screenshot of echo page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/echo.png)
 
-A delay effect with a selectable feedback path (K2); *MIST* feeds the delay buffer into a series of allpass filters for a reverb effect, while *DUB* saturates the signal. Echo time (K3) is synced to BPM. Feedback (E2) controls how much of the output is fed back into the delay input. Mix (E3) is really a control for the wet signal only; the dry signal always fully passes.
+The Echo page offers a clock-synced delay with two selectable styles. MIST routes the feedback through allpass filters for a reverb-like tail; DUB saturates the feedback signal. The dry signal always passes fully; Mix controls the wet level only.
 
 
 #### Controls

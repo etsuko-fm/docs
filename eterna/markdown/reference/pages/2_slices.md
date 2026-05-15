@@ -1,7 +1,7 @@
 # Slices
 ![screenshot of slice page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/slices.png)
 
-Cut the sample into 1-32 slices with E3 (`SLCS`). There are 6 voices; each of them is assigned 1 slice for playback. If the number of slices is smaller than 6, slices are recycled over voices.
+The Slices page allows cutting the loaded sample into up to 32 equal segments. Each of the six voices is assigned one slice for playback. If the number of slices is less than 6, slices are recycled across voices.
 
 When a mono sample is selected, the selected start slice (E2) is assigned to voice 1, while each next slice is assigned to the next voice. See the screenshot below: slice 2 to 7 are assigned to voice 1 to 6.
 

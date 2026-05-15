@@ -1,8 +1,9 @@
 # Sequencer
 ![screenshot of sequencer page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/seq-perlin.png)
 
-A [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)-based sequencer which offers 2 parameters to control the entire 6-track sequence: seed (E2) and density (E3). 
+The Sequencer page offers step sequencing for all six voices. By default, steps are generated algorithmically using [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise). This means that the entire pattern can be reshaped at once rather than edited track by track.
 
+Alternatively, the sequence can be edited step by step using monome grid.
 
 The velocity of each step is indicated by the brightness of a step. 
 

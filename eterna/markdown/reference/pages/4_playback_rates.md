@@ -1,7 +1,7 @@
 # Playback Rates
 ![screenshot of playback rates page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/playback-rates.png)
 
-Controls the playback rate and direction (`FWD`/`REV`/`BI`) of all voices. The rates are quantized to octaves. All playback rates are linked to each other as if they form a sine wave together. `CNTR` (E2) controls the offset of the wave from the center, while `SPRD` (E3) controls the height.
+The Playback Rates page controls the pitch and direction of all six voices. Rates are quantized to octaves and distributed across voices as a sine wave, so a single control adjusts the pitch spread of the entire instrument simultaneously.
 
 From this follows that if spread is zero, the playback rate for every voice is equal. `RANGE` (K3) aids in limiting the total range to 3 octaves if desired.
 

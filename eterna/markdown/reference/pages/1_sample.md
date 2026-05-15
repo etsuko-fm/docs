@@ -3,7 +3,7 @@
 
 ![screenshot of sample page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/sampling-initial.png)
 
-Load a sample from disk with K2. Drive (E2) is available to boost the amplitude of all channels in parallel.
+The Sample page provides audio loading for all six voices. Mono, stereo, and multichannel files are supported. Drive provides a pre-chain amplitude boost applied equally to all channels.
 
 ### Supported formats
 - WAV/AIFF at 48kHz - other sample rates will be played back at incorrect pitch

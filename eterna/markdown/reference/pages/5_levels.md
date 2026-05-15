@@ -1,7 +1,7 @@
 # Levels
 ![screenshot of levels page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/levels-paused.png)
 
-Control the levels of all voices via a [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). `POS` controls the center of the curve, while `AMP` controls the amplitude (_sigma_ of the curve).
+The Levels page controls the amplitude of all six voices via a bell curve distribution. The position and amplitude of the curve determine how levels are spread across voices.
 
  An LFO is available to automate movement; this affects the position parameter. 
 

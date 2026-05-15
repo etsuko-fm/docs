@@ -1,8 +1,7 @@
 # Lowpass Filter
 ![screenshot of lowpass filter page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/lowpass-on.png)
 
-The pages for lowpass and highpass are identical except for their filter type.
-Each is based on [Supercollider's 12dB/octave SVF filter](https://doc.sccode.org/Classes/SVF.html).
+The Lowpass Filter provides a 12dB/octave SVF filter for the mix, with adjustable cutoff frequency and resonance.
 
 The filter also has an LFO available, with selectable waveform, rate and range.
 

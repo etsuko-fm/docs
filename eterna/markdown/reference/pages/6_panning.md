@@ -1,7 +1,7 @@
 # Panning
 ![screenshot of panning page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/panning-lfo-on.png)
 
-Controls the panning of all voices. The position of the voices in the stereo field is spread within the available width (E3), and can be continuously cycled using twist (E2).
+The Panning page controls the stereo position of all six voices. Voices are evenly spread within a configurable width, and can be continuously rotated through the stereo field using Twist.
 
 
 

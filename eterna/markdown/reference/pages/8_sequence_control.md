@@ -1,7 +1,7 @@
 # Sequence Control
 ![screenshot of sequencer page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/seq-ctrl.png)
 
-Controls transport, BPM, and sequence length.
+The Sequence Control page provides global playback controls: transport, tempo, and sequence length. BPM follows the active Norns clock source, which may be internal, MIDI, or Ableton Link.
 
 
 | Control | Function | Description |

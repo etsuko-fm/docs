@@ -3,7 +3,7 @@
 
 ![screenshot of master page](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/master-play-2.png)
 
-A simple mastering chain to control the final output of the mix. The processing chain includes a Bass Mono stage, which uses a [Linkwitz-Riley filter](https://en.wikipedia.org/wiki/Linkwitz%E2%80%93Riley_filter) to split the signal at a specified frequency and make it mono up to that frequency, as inspired by [Ableton Live's utility device](https://www.ableton.com/en/manual/live-audio-effect-reference/). After the Bass Mono stage, a compressor with three presets is available (soft/medium/hard) - or it may be turned off. 
+The Master page offers a simple mastering chain to control the stereo output. The signal passes through a Bass Mono stage, which uses a [Linkwitz-Riley filter](https://en.wikipedia.org/wiki/Linkwitz%E2%80%93Riley_filter) to mono-sum frequencies below a set threshold — followed by an optional compressor with three presets.
 
 The history of the last few samples is used to display a [lissajous curve](https://en.wikipedia.org/wiki/Lissajous_curve).
 
