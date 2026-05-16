@@ -43,7 +43,7 @@ When `E2` or `E3` is touched again, both parameters are read and the sequence is
 
 #### Velocity
 
-![screenshot of velocity mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/shot-velocity.png)
+![screenshot of velocity mode](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260516/velocity-60.png)
 
 Each step is assigned a 'velocity' (_strength_ of a note/step). While in velocity mode, E2 and E3 control the velocity of all steps at the same time, by defining a range using a `center` and `spread` value. The velocities are randomized within this range.
 
@@ -51,7 +51,6 @@ Adjusting `center` or `spread` recalculates _all_ velocities. Also, each time a 
 
 In practice, this leads to a continuously evolving pattern, unless `spread` is set to `0`.
 
-![video of evolving pattern]()
 
 
 | Control | Function  | Description |
@@ -74,7 +73,7 @@ $$v = \text{clamp}(c + s \cdot (r - 0.5), 0.01, 1)$$
 **Where:**
 * $c$ = Center value
 * $s$ = Spread value
-* $r$ is a uniform random number, i.e., `math.random()`
+* $r$ is a random number between 0 and 1
 * $\text{clamp}(x, a, b) = \min(\max(x, a), b)$
 
 

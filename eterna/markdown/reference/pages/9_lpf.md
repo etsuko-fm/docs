@@ -5,7 +5,7 @@ The Lowpass Filter provides a 12dB/octave SVF filter for the mix, with adjustabl
 
 The filter also has an LFO available, with selectable waveform, rate and range.
 
-![screenshot of lowpass lfo ctrl](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260124/lowpass-lfo.png)
+![screenshot of lowpass LFO ](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/lowpass-lfo.png)
 
 ### Control Modes
 There are 2 different control modes for the filter, set by K2 (`CTRL`):

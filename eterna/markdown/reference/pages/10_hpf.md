@@ -5,7 +5,7 @@ The Highpass Filter provides a 12dB/octave SVF filter for the mix, with adjustab
 
 The filter also has an LFO available, with selectable waveform, rate and range.
 
-![screenshot of highpass lfo ctrl](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/highpass-lfo.png)
+![screenshot of lowpass LFO ](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260501/highpass-lfo.png)
 
 ### Control Modes
 There are 2 different control modes for the filter, set by K2 (`CTRL`):

@@ -12,13 +12,6 @@ The following functionality is supported:
 ### Controls
 ![eterna grid schematic](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/eterna-grid-docs-v2.png)
 
-
-### Demo
-This video demonstrates the controls.
-<video controls preload="metadata" poster="https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/eterna-grid-frame-0.png">                 
-    <source src="https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/EternaGrid.mp4" type="video/mp4">
-</video>
-
 ### Modifying existing sequences
 
 Without grid, sequences are controlled using E2 (`seed`) and E3 (`density`) on the [sequencer page](./pages/sequencer).
@@ -26,7 +19,7 @@ Once you plugin grid, the current sequence is displayed on grid.
 
 If you use grid to modify an existing sequence, the perlin noise sequence parameters are disabled, indicated by a `*` on the sequencer page's footer.
 
-todo: add screenshot
+![eterna grid schematic](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260516/perlin-disabled.png)
 
 If you twist E2 or E3 again, their values are re-applied and the grid-drawn sequence is taken over by the perlin noise sequence.
 
