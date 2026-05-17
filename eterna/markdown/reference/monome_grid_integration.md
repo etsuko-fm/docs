@@ -2,6 +2,8 @@
 
 Eterna can be operated using [monome grid](https://monome.org/docs/grid/). 
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7hsBs4fwP8o?si=gHA6xq8pPsBQGbXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The following functionality is supported:
 - Browsing pages
 - Modifying the sequence
@@ -10,7 +12,7 @@ The following functionality is supported:
 
 
 ### Controls
-![eterna grid schematic](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260416/eterna-grid-docs-v2.png)
+![eterna grid schematic](https://d21ikh70ytbexu.cloudfront.net/docs/eterna/260516/eterna-grid-overview.png)
 
 ### Modifying existing sequences
 
@@ -26,6 +28,12 @@ If you twist E2 or E3 again, their values are re-applied and the grid-drawn sequ
 
 ### Velocity
 Velocity is not controllable via grid, but via the [sequencer page](./pages/sequencer) instead. 
+
+### Looping
+Row 7 can be used to loop a section  of the sequence.
+
+- Hold the start step, then press the stop step to start a loop between those steps.
+- If you'd like to loop a single step, double tap that step.
 
 ### Transport
 The last button on the bottom row can be used to start or stop transport. When transport is not running, it blinks in the current BPM.
